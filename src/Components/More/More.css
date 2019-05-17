@@ -1,0 +1,29 @@
+.podcasts-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px; 
+    }
+    
+    .podcasts-list li {
+    display: inline;
+    padding: 15px;
+    align-self: center;
+    }
+    
+    .podcasts-list li a:hover {
+    opacity: .7;
+    }
+    
+    .podcast-list li {
+    width: 45%;
+    }
+    
+    footer h2 {
+    text-align: center;
+    }
+    
+    footer p {
+    text-align: center;
+    padding-top: 20px;
+    }

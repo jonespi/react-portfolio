@@ -1,0 +1,10 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.projects h2 {
+    text-align: center;
+}

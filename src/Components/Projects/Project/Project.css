@@ -1,0 +1,36 @@
+.project {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project-icons {
+    margin: 0;
+    padding: 0;
+}
+
+.project img {
+    max-height: 315px;
+    height: 90%;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 1%;
+}
+
+.project-text {
+    padding-left: 30px;
+}
+
+.project-text h3 {
+    margin-top: 0;
+}
+    
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
