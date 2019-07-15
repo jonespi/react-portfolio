@@ -1,0 +1,19 @@
+.experience {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vh;
+}
+
+.experience h2 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .experience {
+      display: block;
+      width: 100%;
+  }
+}

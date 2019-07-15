@@ -35,11 +35,6 @@ h1, h2, h3 {
   font-weight: strong;
 }
 
-.app {
-  display: flex;
-  justify-content: center;
-}
-
 body a {
   color: #DCB85A;
   padding: 0 7.5px 0 7.5px;
@@ -62,4 +57,13 @@ body a:hover {
 
 .contact-links {
   text-align: center;
+}
+
+section {
+  padding-top: 10px;
+}
+
+section {
+  width: 100%;
+  max-width: 1024px;
 }

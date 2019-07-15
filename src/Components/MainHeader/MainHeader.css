@@ -1,43 +1,118 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  margin-top: 5%;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.header-contents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .main-header {
-    display: flex;
-    justify-content: center;
-    font-family: 'Karla', sans-serif;
-}
-    
-.name-header, .header img {
-    align-self: center;
-    text-align: center;
-    display: flex;
+  display: flex;
+  font-family: 'Rubik', serif;
 }
 
-.name-titles h1, .name-titles h2, .name-titles h3 {
-    padding: 0 50px;
+.name-header {
+  max-width: 1024px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name-titles {
+  margin-right: 50px;
+  text-align: left;
+}
+
+.name-header div {
+  width: 425px;
+}
+
+.header-contents img {
+  max-width: 1024px;
+  border-radius: 1.5%;
+  -webkit-filter: brightness(0.75);
+  filter: brightness(0.75);
 }
 
 .intro-icons {
-    align-self: center;
-    display: flex;
-    font-size: 2.5rem;
-    padding: 0;
-    padding-top: 20px;
-    margin: 0;
+  font-size: rem;
+  padding: 0;
+  margin: 0;
 }
 
 .intro-icons li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0px 5px;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 5px;
 }
 
-.header img {
-    max-width: 1024px;
+@media only screen and (max-width: 425px) {
+  .header-contents {
+    display: block;
+  }
+
+  .name-titles {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .intro-paragraph {
+    padding-top: 75px;
+    align-self: none;
+    text-align: center;
+    margin: 10px 0;
     width: 100%;
-    border-radius: 1.5%;
+    text-shadow: 2px 2px black;
+  }
+
+  .intro-paragraph h3 {
+    margin: 0;
+  }
+
+  .name-titles h1, .name-titles h2, .name-titles h3 {
+    margin: 0;
+  }
+
+  .intro-icons {
+    margin-top: 15px;
+  }
+
+  .name-header {
+    top: 350px;
+    display: block;
+    width: 95%;
+  }
+
+  .name-header div {
+    display: block;
+    width: 95%;
+  }
+
+  .name-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .name-header h2, .name-header h3 {
+    font-size: 1.25rem;
+  }
+
+  .header img {
+    width: 100%;
+  }
 }
