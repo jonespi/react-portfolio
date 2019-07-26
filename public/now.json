@@ -1,0 +1,15 @@
+{
+  "name": "react-portfolio",
+  "version": 2,
+  "alias": "http://jonathanespinosa.me",
+  "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+  ]
+}

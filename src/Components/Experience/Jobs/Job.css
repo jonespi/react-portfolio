@@ -1,63 +1,56 @@
 .job-content {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .job-title {
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .job-link {
-    font-size: 0;
+  font-size: 0;
 }
 
 .job-icons {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .job-content img {
-    align-self: center;
-    max-height: 315px;
-    height: 90%;
-    max-width: 500px;
-    width: 50%;
-    border-radius: 1%;
+  align-self: center;
+  max-height: 315px;
+  max-width: 400px;
+  border-radius: 1%;
 }
 
 .job-text {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .job-text h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 425px) {
-    .job {
-        display: block;
-        width: 100%;
-    }
-
-    .job-title {
-        display: block;
-    }
-
-    .job-content {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .job-text {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        width: 90%;
-    }
+  .job {
+    display: block;
+    width: 100%;
   }
+
+  .job-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .job-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 90%;
+  }
+}

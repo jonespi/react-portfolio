@@ -1,6 +1,5 @@
 .header {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   height: 80vh;
   margin-top: 5%;
   max-width: 1024px;
@@ -19,18 +18,17 @@
 }
 
 .name-header {
+  z-index: 1;
+  margin: 0 auto;
+  margin-top: -60%;
   max-width: 1024px;
-  width: 100%;
+  width: 90%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
   text-align: center;
   text-shadow: 2px 2px black;
   color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .name-titles {
@@ -39,10 +37,11 @@
 }
 
 .name-header div {
-  width: 425px;
+  width: 50%;
 }
 
 .header-contents img {
+  margin: 0 auto;
   max-width: 1024px;
   border-radius: 1.5%;
   -webkit-filter: brightness(0.75);
@@ -62,30 +61,27 @@
 }
 
 @media only screen and (max-width: 425px) {
-  .header-contents {
-    display: block;
+  .header {
+    height: 100vh;
   }
 
   .name-titles {
     text-align: center;
-    margin: 0;
+    margin-top: 25px;
     margin-bottom: 50px;
   }
 
   .intro-paragraph {
-    padding-top: 75px;
+    padding-top: 60px;
     align-self: none;
     text-align: center;
     margin: 10px 0;
     width: 100%;
-    text-shadow: 2px 2px black;
+    text-shadow: none;
+    color: #033649;
   }
 
   .intro-paragraph h3 {
-    margin: 0;
-  }
-
-  .name-titles h1, .name-titles h2, .name-titles h3 {
     margin: 0;
   }
 
@@ -94,14 +90,16 @@
   }
 
   .name-header {
-    top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 290px;
     display: block;
-    width: 95%;
+    width: 90%;
   }
 
   .name-header div {
     display: block;
-    width: 95%;
+    width: 100%;
   }
 
   .name-header h1 {

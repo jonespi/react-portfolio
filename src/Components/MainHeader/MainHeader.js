@@ -4,7 +4,7 @@ import './MainHeader.css';
 
 export default function MainHeader() {
   return (
-    <section className="header">
+    <section className="header" id="about">
        <div className="header-contents">
         <img src={heroImg} alt="golden gate bridge" className="hero-img"/>
         <div className="main-header">
@@ -25,7 +25,7 @@ export default function MainHeader() {
                 I am currently a Customer Advocate at Sprout Social and have completed the Engineering Immersion Program at Thinkful. After years of providing customer support, I have decided to take the leap and continue my career as a Software Engineer.
               </p>
               <p>
-                I’m excited to finally build the the features that I have provided support for throughout my career.
+                I’m excited at the opportunity to finally have a direct impact in building the features that I have provided support for throughout my career.
               </p>
             </div>
           </div>

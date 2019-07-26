@@ -14,7 +14,20 @@
   padding: 0px 50px;
 }
 
+.contact-links a i {
+  font-size: 3rem;
+}
+
 .footer {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .contact-links a {
+    padding: 0 10px;
+  }
+  .contact-links a i {
+    font-size: 2rem;
+  }
 }
