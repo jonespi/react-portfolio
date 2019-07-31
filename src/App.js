@@ -8,11 +8,9 @@ import Contact from './Components/Contact/Contact'
 import './App.css';
 
 class App extends Component {
-
-
   render() {
     return (
-      <div className="app">
+      <div className="app" id="about">
         <TopNav />
         <MainHeader />
         {/* <About /> */}

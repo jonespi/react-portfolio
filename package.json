@@ -16,7 +16,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "now ./build",
-    "postdeploy": "now --target production"
+    "postdeploy": "now alias https://react-portfolio.jonespi.now.sh jonathanespinosa.me"
   },
   "eslintConfig": {
     "extends": "react-app"

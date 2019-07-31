@@ -14,7 +14,6 @@
 
 .main-header {
   display: flex;
-  font-family: 'Rubik', serif;
 }
 
 .name-header {
@@ -34,6 +33,10 @@
 .name-titles {
   margin-right: 50px;
   text-align: left;
+}
+
+.name-titles h1 {
+  font-size: 2.5rem
 }
 
 .name-header div {
@@ -65,17 +68,25 @@
     height: 100vh;
   }
 
+  .header-contents {
+    width: 100%;
+  }
+
   .name-titles {
     text-align: center;
-    margin-top: 25px;
+    padding-top: 15%;
     margin-bottom: 50px;
   }
 
+  .name-titles h1, .name-titles h3 {
+    margin: 0;
+  }
+
   .intro-paragraph {
-    padding-top: 60px;
     align-self: none;
     text-align: center;
-    margin: 10px 0;
+    padding: 25px 0;
+    margin: 15px 0;
     width: 100%;
     text-shadow: none;
     color: #033649;

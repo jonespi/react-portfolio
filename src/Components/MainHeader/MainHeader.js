@@ -4,7 +4,7 @@ import './MainHeader.css';
 
 export default function MainHeader() {
   return (
-    <section className="header" id="about">
+    <section className="header">
        <div className="header-contents">
         <img src={heroImg} alt="golden gate bridge" className="hero-img"/>
         <div className="main-header">

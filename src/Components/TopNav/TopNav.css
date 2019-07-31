@@ -1,6 +1,5 @@
 .navigation-wrapper {
-  background-color: #041724;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  background-color: #fff;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -8,6 +7,7 @@
 }
 
 .navigation {
+  font-weight: 800;
   margin: 0 auto;
   padding-right: 20px;
   max-width: 1024px;
@@ -118,7 +118,7 @@
     padding: 10px 10px;
   }
   .navigation .logo {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .navigation .menu {
     clear: none;
