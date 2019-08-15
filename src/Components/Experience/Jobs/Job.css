@@ -22,6 +22,10 @@
   justify-content: space-between;
 }
 
+.left-column a {
+  cursor: pointer;
+}
+
 .job-link {
   font-size: 0;
 }

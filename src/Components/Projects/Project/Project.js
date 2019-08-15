@@ -50,7 +50,7 @@ export default class Project extends React.Component {
           <h3>{this.props.title}</h3>
             <ul className="project-icons">
               <li>
-                <a href={this.props.demo}>
+                <a href={this.props.demo} target="_blank" rel="noopener noreferrer">
                   <i aria-hidden="true" class="fas fa-laptop fa-2x"></i>
                   <span className="project-link">
                     demo
@@ -58,7 +58,7 @@ export default class Project extends React.Component {
                 </a>
               </li>
               <li>
-                <a href={this.props.link}>
+                <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                   <i aria-hidden="true" class="fab fa-github fa-2x"></i>
                   <span className="project-link">
                     github

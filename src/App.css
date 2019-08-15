@@ -77,4 +77,8 @@ section {
   body {
     position: absolute;
   }
+
+  section {
+    padding-top: 100px;
+  }
 }

@@ -5,7 +5,6 @@ import './Projects.css';
 
 export default function Projects() {
   let Projects = ProjectList();
-  console.log(Projects)
   return (
     <section className="projects" id="projects">
       <h2>Projects</h2>

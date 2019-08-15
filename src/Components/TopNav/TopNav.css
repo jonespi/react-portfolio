@@ -27,6 +27,7 @@
 }
 
 .navigation .logo {
+  cursor: pointer;
   display: block;
   float: left;
   font-size: 1rem;

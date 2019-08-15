@@ -28,7 +28,7 @@ export default class Job extends React.Component {
         <div className="job-title">
           <div className="left-column">
             <h3>{this.props.title}</h3>
-            <a href={this.props.demo}>
+            <a href={this.props.demo} target="_blank" rel="noopener noreferrer">
               <i aria-hidden="true" class="fas fa-laptop fa-2x"></i>
               <span className="job-link">
                 demo
