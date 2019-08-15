@@ -24,6 +24,13 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .contact-links a {
     padding: 0 10px;
   }

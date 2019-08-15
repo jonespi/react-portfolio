@@ -9,7 +9,6 @@
 .navigation {
   font-weight: 800;
   margin: 0 auto;
-  padding-right: 20px;
   max-width: 1024px;
 }
 
@@ -24,6 +23,7 @@
   display: block;
   padding: 20px 15px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navigation .logo {
@@ -54,7 +54,7 @@
 }
 
 .navigation .menu-icon .navicon {
-  background: #DCB85A;
+  background: #033649;
   display: block;
   height: .5px;
   position: relative;
@@ -64,7 +64,7 @@
 
 .navigation .menu-icon .navicon:before,
 .navigation .menu-icon .navicon:after {
-  background: #DCB85A;
+  background: #033649;
   content: '';
   display: block;
   height: 100%;

@@ -46,24 +46,30 @@ export default class Project extends React.Component {
     return (
       <div className="project">
         <div className="project-title">
+          <div>
           <h3>{this.props.title}</h3>
-          <ul className="project-icons">
-              <a href={this.props.demo}>
-                <i aria-hidden="true" class="fas fa-laptop fa-2x"></i>
-                <span className="project-link">
-                  demo
-                </span>
-              </a>
-              <a href={this.props.link}>
-                <i aria-hidden="true" class="fab fa-github fa-2x"></i>
-                <span className="project-link">
-                  github
-                </span>
-              </a>
+            <ul className="project-icons">
+              <li>
+                <a href={this.props.demo}>
+                  <i aria-hidden="true" class="fas fa-laptop fa-2x"></i>
+                  <span className="project-link">
+                    demo
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href={this.props.link}>
+                  <i aria-hidden="true" class="fab fa-github fa-2x"></i>
+                  <span className="project-link">
+                    github
+                  </span>
+                </a>
+              </li>
             </ul>
+          </div>
+          <div><img src={this.props.img} alt="Screen shot of project" /></div>
         </div>
         <div className="project-content">
-          <img src={this.props.img} alt="Screen shot of project" />
           <div class="project-text">
             <div class="project-description">
               <p>{this.props.description}</p>

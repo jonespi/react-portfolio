@@ -19,7 +19,7 @@ let ProjectList = () => {
       libraries: ['jQuery']
     },
     {
-      title: 'Mac OS X Hotkey Quiz',
+      title: 'OS X Hotkey Quiz',
       img: 'https://i.imgur.com/iFkWyRV.png',
       demo: 'https://nw-iguana.github.io/brandon-jonathan-quiz-app/',
       link: 'https://github.com/nw-iguana/brandon-jonathan-quiz-app',

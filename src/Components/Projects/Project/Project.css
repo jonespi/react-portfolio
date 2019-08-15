@@ -1,41 +1,30 @@
-.project-content {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
+.project {
+    max-width: 1024px;
     width: 100%;
+  display: flex;
+  margin-top: 75px;
 }
 
-.project-title {
-    margin-top: 25px;
+.project div {
+    flex: 1;
+}
+
+.project-title div {
+    width: 400px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+
+.project-icons {
+    padding: 0;
+    list-style: none;
+    display: flex;
 }
 
 .project-link {
     font-size: 0;
 }
-
-.project-icons {
-    margin: 0;
-    padding: 0;
-}
-
-.project-content img {
-    align-self: center;
-    max-height: 315px;
-    height: 90%;
-    border-radius: 1%;
-}
-
-.project-text {
-    padding-left: 30px;
-}
-
-.project-text h3 {
-    margin-top: 0;
-}
-    
+  
 .visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
     position: absolute !important;
     height: 1px; width: 1px;
@@ -44,26 +33,39 @@
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media only screen and (max-width: 425px) {
-    .project {
-        display: block;
-        width: 100%;
-    }
-
-    .project-title {
-        display: block;
-    }
-
-    .project-content {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .project-text {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        width: 90%;
-    }
+@media only screen and (max-width: 48em) {
+  .project {
+    display: block;
   }
+
+  .project div {
+    margin: 0 auto;
+  }
+
+  .project-title {
+    display: block;
+  }
+
+  .job-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .job-img img {
+    height: 100%;
+  }
+
+  .project-content {
+    display: block;
+  }
+
+  .project-description {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-description p {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
