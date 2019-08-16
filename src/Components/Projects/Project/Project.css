@@ -1,8 +1,8 @@
 .project {
-    max-width: 1024px;
-    width: 100%;
+  max-width: 1024px;
+  width: 100%;
   display: flex;
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .project div {
@@ -60,7 +60,6 @@
   }
 
   .project-description {
-    width: 90%;
     margin: 0 auto;
   }
 

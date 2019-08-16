@@ -1,4 +1,5 @@
 .header {
+  padding-top: 75px;
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
@@ -34,13 +35,17 @@
 
 @media only screen and (max-width: 48em) {
   .header {
-    height: 100vh;
+    height: 100%;
   }
 
   .intro-paragraph {
     text-align: center;
     text-shadow: none;
     color: #033649;
+  }
+
+  .name-titles {
+    margin-top: 45px;
   }
 
   .name-titles h1, .name-titles h2, .name-titles h3 {
