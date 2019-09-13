@@ -1,6 +1,16 @@
 let ProjectList = () => {
   return [
     {
+      title: 'TrApp',
+      img:
+        'https://github.com/cohencodes/trapp-frontend/raw/master/src/assets/trapp.png',
+      demo: 'https://trapp-frontend.jonespi.now.sh',
+      link: 'https://github.com/jonespi/trapp-frontend',
+      description: `TrApp tracks your applications to developer jobs, allowing you to focus on the job search.`,
+      languages: [],
+      libraries: ['React', 'Express.js', 'MongoDB', 'Mongoose']
+    },
+    {
       title: 'MediaLog',
       img: 'https://i.imgur.com/T5JtuAs.png',
       demo: 'http://medialog-client.jonespi.now.sh',
@@ -14,7 +24,8 @@ let ProjectList = () => {
       img: 'https://i.imgur.com/RDFsDe0.png',
       demo: 'https://cohencodes.github.io/artist-hub/',
       link: 'https://github.com/jonespi/artist-hub',
-      description: 'A search tool to receive information on your favorite musical artists. It utilizes Wikipedia, YouTube, Ticketmaster, and NewsAPI APIs to gather information',
+      description:
+        'A search tool to receive information on your favorite musical artists. It utilizes Wikipedia, YouTube, Ticketmaster, and NewsAPI APIs to gather information',
       languages: ['Javascript', 'HTML', 'CSS'],
       libraries: ['jQuery']
     },
@@ -23,11 +34,12 @@ let ProjectList = () => {
       img: 'https://i.imgur.com/iFkWyRV.png',
       demo: 'https://nw-iguana.github.io/brandon-jonathan-quiz-app/',
       link: 'https://github.com/nw-iguana/brandon-jonathan-quiz-app',
-      description: 'A Quiz App testing users on their knowledge of Mac OS Hotkeys. The app validates answers and manipulates the DOM to show current score and question.',
+      description:
+        'A Quiz App testing users on their knowledge of Mac OS Hotkeys. The app validates answers and manipulates the DOM to show current score and question.',
       languages: ['Javascript', 'HTML', 'CSS'],
       libraries: ['jQuery']
     }
-  ]
-}
+  ];
+};
 
-export { ProjectList }
+export { ProjectList };
