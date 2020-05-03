@@ -28,16 +28,6 @@ let ProjectList = () => {
         'A search tool to receive information on your favorite musical artists. It utilizes Wikipedia, YouTube, Ticketmaster, and NewsAPI APIs to gather information',
       languages: ['Javascript', 'HTML', 'CSS'],
       libraries: ['jQuery']
-    },
-    {
-      title: 'OS X Hotkey Quiz',
-      img: 'https://i.imgur.com/iFkWyRV.png',
-      demo: 'https://nw-iguana.github.io/brandon-jonathan-quiz-app/',
-      link: 'https://github.com/nw-iguana/brandon-jonathan-quiz-app',
-      description:
-        'A Quiz App testing users on their knowledge of Mac OS Hotkeys. The app validates answers and manipulates the DOM to show current score and question.',
-      languages: ['Javascript', 'HTML', 'CSS'],
-      libraries: ['jQuery']
     }
   ];
 };
