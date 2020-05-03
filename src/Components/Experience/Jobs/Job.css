@@ -30,6 +30,10 @@
   font-size: 0;
 }
 
+.technologies {
+  display: flex;
+}
+
 @media only screen and (max-width: 48em) {
   .job {
     display: block;
