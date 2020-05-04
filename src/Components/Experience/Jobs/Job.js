@@ -20,21 +20,25 @@ export default class Job extends React.Component {
 
     return (
       <>
-        <p>Technologies Used:</p>
-        <ul>{libs}</ul>
+        {libs.length ? (
+          <>
+            <p>Technologies Used:</p>
+            <ul>{libs}</ul>
+          </>
+        ) : null}
         <div className="technologies">
-          {frontend !== '' && (
+          {frontend.length ? (
             <div className="front-end">
               <p>Front End:</p>
               <ul>{frontend}</ul>
             </div>
-          )}
-          {backend !== '' && (
+          ) : null}
+          {backend.length ? (
             <div className="back-end">
               <p>Back End:</p>
               <ul>{backend}</ul>
             </div>
-          )}
+          ) : null}
         </div>
       </>
     );

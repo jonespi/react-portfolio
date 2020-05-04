@@ -6,7 +6,7 @@ let JobList = () => {
       link: 'http://www.zerocater.com',
       description:
         "As the only Support Engineer on the team, I provide direct technical support and testing to external and internal users of the company's applications. These types of issues can be anything from billing, user experience, and more. I have also developed full stack features to improve the app and organization as a whole.",
-      frontend: ['Nextjs', 'React', 'Redux', 'Vuejs'],
+      frontend: ['Nextjs', 'React', 'Redux', 'Vuejs', 'Django Templates'],
       backend: ['Django', 'Postgres', 'Heroku', 'NewRelic'],
       devops: ['Docker', 'Git', 'AnswerHub']
     },
