@@ -23,13 +23,13 @@ export default class Job extends React.Component {
         <p>Technologies Used:</p>
         <ul>{libs}</ul>
         <div className="technologies">
-          {frontend && (
+          {frontend !== '' && (
             <div className="front-end">
               <p>Front End:</p>
               <ul>{frontend}</ul>
             </div>
           )}
-          {backend && (
+          {backend !== '' && (
             <div className="back-end">
               <p>Back End:</p>
               <ul>{backend}</ul>
