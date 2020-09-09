@@ -4,21 +4,21 @@ import './TopNav.css';
 
 export default class TopNav extends React.Component {
   state = {
-    checked: false
+    checked: false,
   };
 
   scrollToTop = () => {
     scroll.scrollToTop();
     if (this.state.checked) {
       this.setState({
-        checked: false
+        checked: false,
       });
     }
   };
 
   navPopUp = () => {
     this.setState({
-      checked: !this.state.checked
+      checked: !this.state.checked,
     });
   };
 
@@ -82,7 +82,7 @@ export default class TopNav extends React.Component {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1HrBryh4vFHD3vyoLT4B7G6i2ZbulgBcU/view"
+                href="https://drive.google.com/file/d/1s0GBTwB7iDkCEjqJ3GK8orAYM11eYOnu/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
